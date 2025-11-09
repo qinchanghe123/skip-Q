@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>顶流广告技术有限公司 · Skip（含导航列）</title>
+  <title>顶流广告技术有限公司 · Skip定点查询</title>
   <link href="https://api.mapbox.com/mapbox-gl-js/v3.6.0/mapbox-gl.css" rel="stylesheet" />
   <script src="https://api.mapbox.com/mapbox-gl-js/v3.6.0/mapbox-gl.js"></script>
   <style>
@@ -93,7 +93,7 @@ window.addEventListener('error', e => { const el=document.getElementById('error'
 window.addEventListener('unhandledrejection', e => { const el=document.getElementById('error'); el.style.display='block'; el.textContent = '未捕获的 Promise 异常：\\n' + (e.reason?.stack || e.reason); });
 
 /* ========= 配置（含速率限制） ========= */
-const MAPBOX_TOKEN = 'sk.eyJ1Ijoic2t0a2luZ2VyIiwiYSI6ImNtaHEzZDZ1NjBzcHUycnExN3AyaW8wbGoifQ.My3FBQg53SM2J8P1oAdtfQ';
+const MAPBOX_TOKEN = 'sk.eyJ1Ijoic2t0a2luZ2VyIiwiYSI6ImNtaHEzOTcwZDBsaG0ybXB4eGtucnBreW8ifQ.eWsjnSOGR-YKcEou5_QCuA';
 const REQUEST_TIMEOUT = 60000;
 
 /* —— 速率限制参数 —— */
@@ -413,3 +413,4 @@ document.getElementById('addressInput').addEventListener('keypress',e=>{ if(e.ke
 </script>
 </body>
 </html>
+
